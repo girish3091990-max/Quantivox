@@ -1,0 +1,16 @@
+cd "C:\Users\GSHS\OneDrive - NNE A S\Desktop\pY\Capstone project\Quantivox"
+
+
+pip install streamlit pandas numpy plotly matplotlib seaborn wordcloud scikit-learn nltk transformers torch openpyxl
+
+streamlit run Quantivox_v1.py
+
+
+####
+to kill
+####
+
+taskkill /F /IM streamlit.exe 
+
+
+taskkill /F /IM python.exe
